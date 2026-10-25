@@ -12,7 +12,7 @@
  * Fields named `tech`/`logo` refer to keys in src/utils/icons.js.
  */
 
-const RESUME_FILE_ID = '1hxJ6gZqaNLE_rD2Tm-0E-_nvX8LV-F_5'
+const RESUME_FILE_ID = '1oC9VwvSd_Y_5Os4Kzo-PIoFrr_fhaFYk'
 
 export const profile = {
   name: 'Sunidhi Goyal',
