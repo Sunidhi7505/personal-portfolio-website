@@ -8,10 +8,10 @@ import {
   siCplusplus, siCss3, siExpress, siGit, siGithub, siHibernate, siHtml5, siIntellijidea,
   siJavascript, siJsonwebtokens, siLeaflet, siLeetcode, siLinkedin, siMongodb, siMysql,
   siNodedotjs, siPostman, siRazorpay, siReact, siSpring, siSpringboot, siSpringsecurity,
-  siApachemaven,
+  siApachemaven, siDocker, siJunit5,
 } from 'simple-icons'
 import {
-  Binary, Boxes, Coffee, Code2, Cpu, Database, HardDrive, Network, Webhook,
+  Binary, Boxes, Coffee, Code2, Cpu, Database, FlaskConical, HardDrive, Network, Webhook,
 } from 'lucide-react'
 
 export const BRAND = {
@@ -20,16 +20,16 @@ export const BRAND = {
   jwt: siJsonwebtokens, leaflet: siLeaflet, leetcode: siLeetcode, linkedin: siLinkedin,
   mongodb: siMongodb, mysql: siMysql, nodejs: siNodedotjs, postman: siPostman,
   razorpay: siRazorpay, react: siReact, spring: siSpring, springboot: siSpringboot,
-  springsecurity: siSpringsecurity, maven: siApachemaven,
+  springsecurity: siSpringsecurity, maven: siApachemaven, docker: siDocker, junit5: siJunit5,
 }
 
 export const GLYPH = {
   java: Coffee, sql: Database, vscode: Code2, rest: Webhook, dsa: Binary, oop: Boxes,
-  dbms: Database, os: Cpu, networks: Network, storage: HardDrive,
+  dbms: Database, mockito: FlaskConical, os: Cpu, networks: Network, storage: HardDrive,
 }
 
 export const DISPLAY_NAME = {
-  jwt: 'JWT', html5: 'HTML', css3: 'CSS', springsecurity: 'Spring Security', mongodb: 'MongoDB', cpp: 'C++', leaflet: 'Leaflet.js',
+  jwt: 'JWT', html5: 'HTML', css3: 'CSS', springsecurity: 'Spring Security', junit5: 'JUnit 5', mockito: 'Mockito', mongodb: 'MongoDB', cpp: 'C++', leaflet: 'Leaflet.js',
   java: 'Java', sql: 'SQL', vscode: 'VS Code', rest: 'REST APIs', dsa: 'DSA', oop: 'OOP',
   dbms: 'DBMS', os: 'Operating Systems', networks: 'Computer Networks',
 }
