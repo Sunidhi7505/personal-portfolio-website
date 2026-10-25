@@ -12,7 +12,7 @@
  * Fields named `tech`/`logo` refer to keys in src/utils/icons.js.
  */
 
-const RESUME_FILE_ID = '1N0QRHPtnh7McFYR2KakXqByrp0sNPd2l'
+const RESUME_FILE_ID = '1hxJ6gZqaNLE_rD2Tm-0E-_nvX8LV-F_5'
 
 export const profile = {
   name: 'Sunidhi Goyal',
@@ -56,9 +56,9 @@ export const navItems = [
 
 export const about = {
   summary: [
-    'I’m a Computer Science graduate (B.E., Chandigarh University, 2022–2026) who enjoys the backend side of full-stack work: designing REST APIs, securing them with Spring Security and JWT, and modelling data cleanly with OOP and SQL.',
-    'In summer 2026 I completed a two-month SDE internship at Intellect Design Arena in Chennai. I trained across Java, OOP, DSA, SQL, Spring Boot and security fundamentals, then built a Smart Visitor Management System with QR-code check-in, invite-link pre-registration and role-based access control.',
-    'On my own time I build end-to-end projects such as Foody, a food delivery platform with 20+ REST endpoints, Razorpay payments and live delivery tracking, and I practise data structures and algorithms in C++ — 500+ problems solved across platforms.',
+    'I’m a Computer Science graduate (B.E., Chandigarh University, 2022–2026, CGPA 8.13) with two months of Java backend experience, who enjoys the backend side of full-stack work: designing REST APIs, securing them with Spring Security and JWT, and modelling data cleanly with OOP and SQL.',
+    'In summer 2026 I completed a two-month SDE internship at Intellect Design Arena in Chennai. I developed 20+ RESTful APIs in Java and Spring Boot for a Smart Visitor Management System within a 5-member engineering team, with QR-code check-in, email invitations and role-based access control for 5 user roles.',
+    'On my own time I build end-to-end projects such as Foody, a food ordering platform with 50+ REST endpoints, Razorpay payments, live rider tracking and a Dockerized backend, and I practise data structures and algorithms in C++ — 500+ problems solved across platforms.',
   ],
   interests: [
     { title: 'Backend & REST APIs', text: 'Layered Spring Boot services with clear request/response contracts.' },
@@ -70,9 +70,9 @@ export const about = {
     'I like code that is easy to reason about: OOP-driven layering, explicit permissions, and AI-assisted development used as a tool — not a shortcut — on real projects.',
   highlights: [
     { value: 8.13, decimals: 2, label: 'CGPA · B.E. Computer Science' },
-    { value: 20, suffix: '+', label: 'REST APIs in Foody' },
+    { value: 70, suffix: '+', label: 'REST APIs built (Foody + internship)' },
     { value: 500, suffix: '+', label: 'DSA problems solved' },
-    { value: 3, suffix: '+', label: 'User roles with RBAC (internship)' },
+    { value: 5, label: 'User roles with RBAC (internship)' },
   ],
 }
 
@@ -80,18 +80,19 @@ export const experience = [
   {
     id: 'intellect',
     company: 'Intellect Design Arena',
-    role: 'Associate Consultant — SDE Internship',
+    role: 'Associate Consultant (Trainee) — Software Development',
     type: 'Internship',
     period: 'June 2026 – August 2026',
     location: 'Chennai, Tamil Nadu',
     summary:
-      'Two-month software development internship combining structured training with building a production-style application.',
+      'Two-month Java backend role on a Smart Visitor Management System, within a 5-member engineering team.',
     points: [
-      'Strengthened core software development skills through hands-on training across 6+ areas — Java, OOP, DSA, SQL, Spring Boot and security fundamentals — applying AI-assisted development practices to real projects.',
-      'Developed a Smart Visitor Management System using Java, Spring Boot and MySQL, supporting 2 visitor categories (regular and occasional) with end-to-end check-in workflows, including QR-code-based check-in and pre-registration via invite links.',
-      'Designed and implemented Role-Based Access Control (RBAC) across 3+ user roles (e.g. admin, security staff, visitor), applying Spring Security and OOP principles to enforce permission-based access across the system.',
+      'Developed 20+ RESTful APIs in Java and Spring Boot for a Smart Visitor Management System within a 5-member engineering team, partnering with 2 frontend developers on integration.',
+      'Architected a 7+ table MySQL schema with soft delete through Spring Data JPA, Hibernate and DTOs in a Controller-Service-Repository layered architecture with dependency injection.',
+      'Secured the application with role-based access control (RBAC) for 5 user roles with Spring Security and JWT, and built the Regular Visitor module end to end with email invitations and QR check-in passes (24-hour expiry).',
+      'Hardened APIs with 8+ custom exceptions, global exception handling and request validation, tested in Postman.',
     ],
-    tech: ['java', 'springboot', 'mysql', 'springsecurity'],
+    tech: ['java', 'springboot', 'mysql', 'springsecurity', 'jwt'],
   },
 ]
 
@@ -118,9 +119,10 @@ export const skillCategories = [
     icon: 'Server',
     skills: [
       { name: 'Spring Boot', logo: 'springboot', note: 'Foody API, Student Management backend and the internship visitor system.' },
-      { name: 'REST APIs', logo: 'rest', note: '20+ endpoints designed for Foody.' },
-      { name: 'Spring Security', logo: 'springsecurity', note: 'Role-based access control across 3+ roles.' },
-      { name: 'JWT', logo: 'jwt', note: 'Token-based authentication in Foody.' },
+      { name: 'Spring MVC', logo: 'spring', note: 'Controller-Service-Repository layering.' },
+      { name: 'REST APIs', logo: 'rest', note: '50+ endpoints in Foody and 20+ in the internship project.' },
+      { name: 'Spring Security', logo: 'springsecurity', note: 'Role-based access control across 5 roles at Intellect.' },
+      { name: 'JWT', logo: 'jwt', note: 'Stateless authentication in Foody and the internship project.' },
       { name: 'Hibernate', logo: 'hibernate', note: 'ORM layer for relational persistence.' },
       { name: 'Spring Data JPA', logo: 'spring', note: 'Repository layer for the Student Management backend.' },
     ],
@@ -153,9 +155,10 @@ export const skillCategories = [
       { name: 'GitHub', logo: 'github', note: 'Source hosting for every project.' },
       { name: 'Maven', logo: 'maven', note: 'Build tool for Java projects.' },
       { name: 'Postman', logo: 'postman', note: 'API testing.' },
-      { name: 'Docker', logo: 'docker', note: 'Containerising applications.' },
-      { name: 'JUnit 5', logo: 'junit5', note: 'Unit testing for Java code.' },
-      { name: 'Mockito', logo: 'mockito', note: 'Mocking dependencies in unit tests.' },
+      { name: 'Swagger', logo: 'swagger', note: 'API documentation.' },
+      { name: 'Docker', logo: 'docker', note: 'Dockerized the Foody backend, deployed on Render.' },
+      { name: 'JUnit 5', logo: 'junit5', note: '12+ unit tests in Foody.' },
+      { name: 'Mockito', logo: 'mockito', note: 'Mocked dependencies in Foody unit tests.' },
       { name: 'IntelliJ IDEA', logo: 'intellij', note: 'Primary Java IDE.' },
       { name: 'VS Code', logo: 'vscode', note: 'Front-end and general editing.' },
       { name: 'Leaflet.js', logo: 'leaflet', note: 'Live delivery map in Foody.' },
@@ -169,6 +172,7 @@ export const skillCategories = [
     skills: [
       { name: 'Data Structures & Algorithms', logo: 'dsa', note: '500+ problems solved across platforms.' },
       { name: 'OOP', logo: 'oop', note: 'Layered design used throughout the Java projects.' },
+      { name: 'Java Collections & Streams', logo: 'java', note: 'Core Java used in DSA and backend code.' },
       { name: 'DBMS', logo: 'dbms', note: 'University coursework.' },
       { name: 'Operating Systems', logo: 'os', note: 'University coursework.' },
       { name: 'Computer Networks', logo: 'networks', note: 'University coursework.' },
@@ -187,11 +191,11 @@ export const projects = [
     id: 'foody',
     title: 'Foody — Food Delivery Platform',
     description:
-      'Full-stack food delivery app with 20+ REST APIs, JWT-secured customer/admin roles, Razorpay payments and live delivery tracking.',
+      'Full-stack food ordering platform with 50+ REST endpoints across 12 controllers, stateless JWT auth for Admin and Customer roles, COD and Razorpay payments, Leaflet.js rider tracking and an admin dashboard. Dockerized backend on Render.',
     period: 'Nov 2025 – Jan 2026',
     art: 'food',
     image: null,
-    tech: ['springboot', 'springsecurity', 'jwt', 'mongodb', 'javascript', 'leaflet', 'razorpay'],
+    tech: ['springboot', 'springsecurity', 'jwt', 'mongodb', 'junit5', 'mockito', 'docker', 'javascript', 'leaflet', 'razorpay'],
     github: 'https://github.com/Sunidhi7505/Food-Delivery-Website-Updated-Version',
     live: 'https://food-store-management.vercel.app/register.html',
   },
@@ -211,11 +215,11 @@ export const projects = [
     id: 'visitor-management',
     title: 'Smart Visitor Management System',
     description:
-      'Internship project at Intellect Design Arena: QR-code check-in and invite-link pre-registration for 2 visitor types, with RBAC across 3+ roles.',
+      'Internship project at Intellect Design Arena: 20+ REST APIs, a 7+ table MySQL schema, email invitations and 24-hour QR check-in passes, with RBAC across 5 roles.',
     period: 'Jun 2026 – Aug 2026',
     art: 'visitor',
     image: null,
-    tech: ['java', 'springboot', 'springsecurity', 'mysql'],
+    tech: ['java', 'springboot', 'springsecurity', 'jwt', 'mysql'],
     github: null,
     live: null,
     note: 'Built during internship — source not public',
@@ -338,12 +342,12 @@ export const achievements = {
   items: [
     { icon: 'Binary', title: '500+ DSA problems solved', text: 'Across platforms, practised mainly in C++ and Java.' },
     { icon: 'Layers', title: 'Real-world full-stack applications', text: 'Built and deployed end-to-end web apps, from database to UI.' },
-    { icon: 'Briefcase', title: 'Prior internship experience', text: 'SDE internship at Intellect Design Arena, Jun – Aug 2026.' },
+    { icon: 'Briefcase', title: 'Service Certificate · Intellect Design Arena', text: 'Associate Consultant (Trainee), Jun – Aug 2026.' },
     { icon: 'Trophy', title: 'Flipkart Grid 7.0 · National Semi-Finalist', text: 'Reached the national semi-finals.', url: 'https://drive.google.com/file/d/1l7TqYEDjkV-L9tEobSnfZ7AsWftzknHc/view?usp=sharing' },
     { icon: 'Award', title: 'NPTEL Elite Silver · 78%', text: 'Foundation of Cloud, IoT, Edge and ML (IIT Kanpur).' },
     { icon: 'GraduationCap', title: '8.13 CGPA · Academic excellence', text: 'B.E. Computer Science, Chandigarh University.' },
     { icon: 'ShieldCheck', title: 'Discipline In-charge', text: 'Served as the school’s Discipline In-charge in Class XI.' },
-    { icon: 'Users', title: 'Class Representative', text: 'Served as class representative in 8th semester, Jan – Apr 2026.' },
+    { icon: 'Users', title: 'Class Representative', text: 'Led class-faculty coordination for 4 months at Chandigarh University, 2026.' },
   ],
 }
 

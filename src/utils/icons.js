@@ -8,7 +8,7 @@ import {
   siCplusplus, siCss3, siExpress, siGit, siGithub, siHibernate, siHtml5, siIntellijidea,
   siJavascript, siJsonwebtokens, siLeaflet, siLeetcode, siLinkedin, siMongodb, siMysql,
   siNodedotjs, siPostman, siRazorpay, siReact, siSpring, siSpringboot, siSpringsecurity,
-  siApachemaven, siDocker, siJunit5,
+  siApachemaven, siDocker, siJunit5, siSwagger,
 } from 'simple-icons'
 import {
   Binary, Boxes, Coffee, Code2, Cpu, Database, FlaskConical, HardDrive, Network, Webhook,
@@ -20,7 +20,7 @@ export const BRAND = {
   jwt: siJsonwebtokens, leaflet: siLeaflet, leetcode: siLeetcode, linkedin: siLinkedin,
   mongodb: siMongodb, mysql: siMysql, nodejs: siNodedotjs, postman: siPostman,
   razorpay: siRazorpay, react: siReact, spring: siSpring, springboot: siSpringboot,
-  springsecurity: siSpringsecurity, maven: siApachemaven, docker: siDocker, junit5: siJunit5,
+  springsecurity: siSpringsecurity, maven: siApachemaven, docker: siDocker, swagger: siSwagger, junit5: siJunit5,
 }
 
 export const GLYPH = {
