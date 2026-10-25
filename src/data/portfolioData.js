@@ -197,7 +197,7 @@ export const projects = [
     image: null,
     tech: ['springboot', 'springsecurity', 'jwt', 'mongodb', 'junit5', 'mockito', 'docker', 'javascript', 'leaflet', 'razorpay'],
     github: 'https://github.com/Sunidhi7505/Food-Delivery-Website-Updated-Version',
-    live: 'https://food-store-management.vercel.app/register.html',
+    live: 'https://food-delivery-website-updated-versi.vercel.app/',
   },
   {
     id: 'sortvision',
